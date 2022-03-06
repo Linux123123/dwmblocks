@@ -1,4 +1,4 @@
 #!/bin/bash 
 
 vol="$(pactl list sinks | awk '$1=="Volume:" {print $5}')"
-echo "${vol}% volume "
+echo "${vol} volume"
